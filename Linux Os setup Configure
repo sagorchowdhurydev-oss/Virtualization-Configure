@@ -3,7 +3,8 @@ virt-install \
 --ram 4096 \
 --disk size=50 \
 --vcpus 3 \
---cdrom /var/lib/libvirt/image/ubuntu-26.04-desktop-amd64.iso \
---os-variant ubuntu 26.04 \
+--cdrom /var/lib/libvirt/images/ubuntu-26.04-desktop-amd64.iso \
+--os-variant ubuntu24.04 \
 --network network=default \
 --graphics vnc
+
